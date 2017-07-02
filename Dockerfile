@@ -9,9 +9,10 @@ RUN ./install.sh
 
 RUN mkdir -p /srv
 COPY install-jupyter.sh run-jupyter.sh /srv/
+RUN chmod +x /srv/install-jupyter.sh /srv/run-jupyter.sh
 COPY jupyter_req.yml ./
 ADD https://raw.githubusercontent.com/jupyterhub/jupyterhub/master/scripts/jupyterhub-singleuser /usr/local/bin/jupyterhub-singleuser
-RUN chmod 755 /usr/local/bin/jupyterhub-singleuser && /srv/install-jupyter.sh
+RUN chmod +x /usr/local/bin/jupyterhub-singleuser
 
 EXPOSE 8888
 
