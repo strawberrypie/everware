@@ -3,6 +3,7 @@ FROM ubuntu:17.04
 MAINTAINER Anton Kiselev <straw.berry.pie@ya.ru>
 
 COPY *.yml install.sh ./
+RUN chmod +x ./install.sh
 ENV PATH="/usr/miniconda3/bin:${PATH}"
 RUN ./install.sh
 
