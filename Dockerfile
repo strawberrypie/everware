@@ -42,7 +42,7 @@ RUN echo 'export PATH=$CONDA_DIR/bin:$PATH' > /etc/profile.d/conda.sh && \
     wget --quiet https://repo.continuum.io/miniconda/Miniconda3-4.3.21-Linux-x86_64.sh && \
     /bin/bash /Miniconda3-4.3.21-Linux-x86_64.sh -b -p $CONDA_DIR && \
     rm Miniconda3-4.3.21-Linux-x86_64.sh && \
-    $CONDA_DIR/bin/conda install --yes conda==4.3.21 ipython-notebook
+    $CONDA_DIR/bin/conda install --yes conda==4.3.21 jupyter
 ENV PATH $CONDA_DIR/bin:$PATH
 
 RUN mkdir -p /srv/
