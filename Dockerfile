@@ -1,6 +1,6 @@
-FROM ubuntu:xenial
+FROM ubuntu:zesty
 MAINTAINER Alexander Tiunov <astiunov@yandex-team.ru>
 
-COPY *.yml install.sh install_modules.R ./
+COPY *.yml install.sh ./
 ENV PATH="/usr/miniconda3/bin:${PATH}"
 RUN ./install.sh

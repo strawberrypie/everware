@@ -1,14 +1,14 @@
 dependencies:
   - python=3
-  - numpy=1.11.2
-  - scipy=0.18.1
-  - matplotlib=1.5.3
-  - pandas=0.19.1
-  - keras=1.1.1
-  - tensorflow=0.10.0rc0
-  - theano=0.8.2
-  - lasagne=0.1
-  - scikit-learn=0.18.1
+  - numpy=1.13.0
+  - scipy=0.19.1
+  - matplotlib=2.0.2
+  - pandas=0.20.2
+  - keras=2.0.2
+  - tensorflow=1.1.0
+  - theano=0.9.0
+  - scikit-learn=0.18.2
   - pip=9.0.1
+  - seaborn=0.7.1  
   - pip:
     - xgboost==0.6a2
