@@ -1,4 +1,4 @@
-FROM ubuntu:17.04
+FROM ubuntu:xenial
 
 MAINTAINER Anton Kiselev <straw.berry.pie@ya.ru>
 
