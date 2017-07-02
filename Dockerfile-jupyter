@@ -1,5 +1,5 @@
-FROM astiunov/data-science:latest
-MAINTAINER Alexander Tiunov <astiunov@yandex-team.ru>
+FROM strawberrypie/everware:latest
+MAINTAINER Anton Kiselev <straw.berry.pie@ya.ru>
 
 RUN mkdir -p /srv
 COPY install-jupyter.sh run-jupyter.sh /srv/
