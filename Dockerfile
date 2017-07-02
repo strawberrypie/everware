@@ -1,5 +1,5 @@
 FROM ubuntu:zesty
-MAINTAINER Alexander Tiunov <astiunov@yandex-team.ru>
+MAINTAINER Anton Kiselev <straw.berry.pie@ya.ru>
 
 COPY *.yml install.sh ./
 ENV PATH="/usr/miniconda3/bin:${PATH}"
